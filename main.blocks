@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="(u,~~,Ao+AXe3%-0^MWe" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="L)fud,}r8Np]Y4Cf[h]~">mySprite</variable><variable type="KIND_SpriteKind" id="qcu{*6{N!/BheZns`/H5">Player</variable><variable type="KIND_SpriteKind" id="Wc-iBrup#FC;]7*3Y{~l">Projectile</variable><variable type="KIND_SpriteKind" id="rdcow|ScT0Qy[RQJr#Mq">Food</variable><variable type="KIND_SpriteKind" id="wts}1QTr#L=qD_H/x/S}">Enemy</variable></variables><block type="pxt-on-start" id="(u,~~,Ao+AXe3%-0^MWe" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="0/0MJauxPV:6=RdKi*uG"><field name="VAR" id="L)fud,}r8Np]Y4Cf[h]~">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="I$:V~f`ReH-v[=q|FW8|"><value name="img"><shadow type="screen_image_picker" id=";,:1-Ag$}zF;s[@#_:[L"><field name="img">img`
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+`</field><data>{"commentRefs":[],"fieldData":{"img":";,:1-Ag$}zF;s[@#_:[L"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Aoqx4cR`b8n3jw^thAwa"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="camerafollow" id="s9oB]LXhlL?q5/n|VD-c"><value name="sprite"><block type="variables_get" id=":,d2pd)1zHxFfK.q#`.H"><field name="VAR" id="L)fud,}r8Np]Y4Cf[h]~">mySprite</field></block></value><next><block type="set_current_tilemap" id="_wjuB#s.0yQ9Uhs`_I)B"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="uz(q;/yU!n=6}}lb}-;/"><field name="tilemap">tilemap`level2`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level2"}}</data></shadow></value></block></next></block></next></block></statement></block></xml>
